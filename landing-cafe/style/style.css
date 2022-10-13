@@ -369,6 +369,17 @@ a:visited {
   transform: scale(1.5);
 }
 
+#btn-view-menu a,
+#btn-learn-more a {
+  color: hsl(28, 80%, 52%);
+  text-decoration: none;
+}
+
+#btn-view-menu:hover a:visited,
+#btn-learn-more:hover a:visited {
+  color: hsl(0, 0%, 100%);
+}
+
 /* subscribe email input */
 form {
   position: relative;
@@ -566,7 +577,9 @@ input:-webkit-autofill {
 
 .story_content {
   justify-content: space-between;
-  margin: 2em 5em 5em 5em;
+  border: 2px solid black;
+  padding: 2em;
+  margin: 5em;
 }
 
 .story_content p {

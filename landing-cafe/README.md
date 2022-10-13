@@ -8,7 +8,7 @@
   </h3>
 </div>
 
-![Design preview](Paragon.png)
+![Design preview](preview.gif)
 
 ## Welcome! 👋
 
